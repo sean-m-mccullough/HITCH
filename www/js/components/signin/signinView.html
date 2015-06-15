@@ -1,0 +1,21 @@
+<ion-view view-title="Sign-In" class="hitch-signin">
+  <ion-content>
+    <div class="text-center padding">
+      <img src="img/logoHitch@2x.png" />
+    </div>
+    <form role="form" name="user" data-ng-submit="vm.authenticateUser(user)">
+      <div class="list list-inset">
+        <label class="item item-input" for="email">
+          <input type="text" id="email" placeholder="Email" value="smm@architech.ca" data-ng-model="user.email" required>
+        </label>
+        <label class="item item-input" for="password">
+          <input type="password" id="password" placeholder="Password" value="architech" data-ng-model="user.password" required>
+        </label>
+      </div>
+      <div class="padding">
+        <button type="submit" class="button button-block button-light">Signin</button>
+        <a class="button button-full button-outline" style="color: white; border: none;" ui-sref="signup">Don't have an account?</a>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>

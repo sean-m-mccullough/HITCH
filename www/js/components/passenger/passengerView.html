@@ -1,0 +1,18 @@
+<ion-view>
+  <ion-content class="has-header padding">
+    <ul class="list list-rides">
+      <li class="item" ng-repeat="ride in ridesList">
+        <a href="#/app/ride">
+          <span>From: </span>
+          <span>{{ride.start}}</span>
+          <br>
+          <span>To: </span>
+          <span>{{ride.destination}}</span>
+          <span class="arrow">
+            <i class="ion-chevron-right"></i>
+          </span>
+        </a>
+      </li>
+  </ul>
+  </ion-content>
+</ion-view>

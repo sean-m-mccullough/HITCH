@@ -1,0 +1,30 @@
+<ion-view view-title="Sign-Up" class="hitch-signup">
+  <ion-content ng-class="{'has-loading': isLoading}">
+    <div class="text-center padding">
+      <img src="img/logoHitch@2x.png" />
+    </div>
+    <form role="form" name="user" data-ng-submit="createUser(user)">
+      <div class="list list-inset">
+        <label class="item item-input" for="firstname">
+          <input type="text" id="firstname" placeholder="First Name" data-ng-model="user.firstname" required>
+        </label>
+        <label class="item item-input" for="lastname">
+          <input type="text" id="lastname" placeholder="Last Name" data-ng-model="user.lastname" required>
+        </label>
+        <label class="item item-input" for="phone">
+          <input type="text" id="phone" placeholder="Mobile Phone Number" data-ng-model="user.phone" required>
+        </label>
+        <label class="item item-input" for="email">
+          <input type="text" id="email" placeholder="Email" data-ng-model="user.email" required>
+        </label>
+        <label class="item item-input" for="password">
+          <input type="password" id="password" placeholder="Password" data-ng-model="user.password" required>
+        </label>
+      </div>
+      <div class="padding">
+        <button type="submit" class="button button-block button-light">Sign Up</button>
+        <a class="button button-full button-outline" style="color: white; border: none;" ui-sref="signin">Already have an account?</a>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>

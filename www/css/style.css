@@ -1,0 +1,80 @@
+/* Empty. Add your own CSS if you like */
+.give-button-container {
+  margin-top: 70px;
+}
+
+.give-button-container a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.give-button-container a img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.get-button-container a {
+  text-align: center;
+  text-decoration: none;
+}
+.get-button-container a img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.ride {
+
+}
+
+.ride button.hitch-button {
+
+}
+ul.list-rides {
+
+}
+
+ul.list-rides li {
+
+}
+
+ul.list-rides li a {
+  text-decoration: none;
+  color: rgba(10, 10, 10, 0.7);
+}
+
+ul.list-rides li a span.arrow {
+  float: right;
+  position: relative;
+  top: -10px;
+}
+.add-button-container a {
+  text-align: center;
+  text-decoration: none;
+}
+.add-button-container a img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.platform-ios .hitch-signin{
+	padding-top: 20px;
+}
+
+/* Signin page styles*/
+.hitch-signin {
+	background-color: #33cd5f;
+}
+
+.hitch-signin a.has-account {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hitch-signup {
+  background-color: #33cd5f;
+}
+

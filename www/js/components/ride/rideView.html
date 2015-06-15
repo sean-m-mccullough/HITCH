@@ -1,0 +1,39 @@
+<ion-view class="ride">
+    <ion-content class="has-header">
+      <div class="row">
+        <div class="col">
+          <h4>Departure Location</h4>
+          <p>{{ridesList.start}}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4>Destination</h4>
+          <p>{{ridesList.destination}}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4>Departure Time</h4>
+          <p>{{ridesList.startTime}}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4>Pit Stops</h4>
+          <h6>Willing to make other stops enroute</h6>
+          <p ng-show="ridesList.pitStops">Heck Yes</p>
+          <p ng-show="!ridesList.pitStops">Heck No</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4>No. of Passengers</h4>
+          <p>{{ridesList.hitched}}/{{ridesList.noOfPassengers}}</p>
+        </div>
+      </div>
+      <button class="button button-full button-balanced hitch-button">
+        Hitch
+      </button>
+    </ion-content>
+</ion-view>
